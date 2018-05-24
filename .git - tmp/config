@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "KatProject"]
+	url = https://github.com/TiPete/KatProject.git
+	fetch = +refs/heads/*:refs/remotes/KatProject/*
+[remote "github"]
+	url = https://github.com/TiPete/KatProject.git
+	fetch = +refs/heads/*:refs/remotes/github/*
